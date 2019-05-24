@@ -1,6 +1,6 @@
 const express = require('express')
 const randomizer = require('./randomizer')
-// const schema = require('./schema.json')
+const schema = require('./schema.json')
 const app = express()
 const port = process.env.PORT || 9542
 
@@ -23,10 +23,10 @@ app.get('/v2/quotes/:num?', (req, res) => {
   res.send(randomizer(parseInt(req.params.num, 10) || 1))
 })
 
-// app.get('/v2/schema', (req, res) => {
-//   res.set('Cache-Control', 'max-age=172800, stale-while-revalidate=3600')
-//   res.json(schema)
-// })
+app.get('/v2/schema', (req, res) => {
+  res.set('Cache-Control', 'max-age=172800, stale-while-revalidate=3600')
+  res.json(schema)
+})
 
 app.listen(port, () => {
   console.log('Server running on port', port)

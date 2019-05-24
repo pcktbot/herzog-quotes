@@ -3,5 +3,20 @@ module.exports = [
   'In the face of the obscene, explicit malice of the jungle, which lacks only dinosaurs as punctuation, I feel like a half-finished, poorly expressed sentence in a cheap novel.',
   'Facts do not convey truth. That\'s a mistake. Facts create norms, but truth creates illumination.',
   'I believe the common denominator of the universe is not harmony; but chaos, hostility and murder.',
-  'If you’re purely after facts, please buy yourself the phone directory of Manhattan. It has four million times correct facts. But it doesn’t illuminate.'
+  'If you’re purely after facts, please buy yourself the phone directory of Manhattan. It has four million times correct facts. But it doesn’t illuminate.',
+  'Civilization is like a thin layer of ice upon a deep ocean of chaos and darkness.',
+  'That man is a head taller than me. That may change.',
+  'You are all wrong.',
+  'Together, I said, we shall boil fire and stop fish.',
+  'I shouldn\'t make movies anymore. I should go to a lunatic asylum.',
+  'I like to direct landscapes just as I like to direct actors and animals.',
+  'Do you not then hear this horrible scream all around you that people usually call silence.',
+  'Truth itself wanders through the forests.',
+  'What would an ocean be without a monster lurking in the dark? It would be like sleep without dreams.',
+  'Every man should pull a boat over a mountain once in his life.',
+  'Those who read own the world, and those who watch television lose it.',
+  'I am someone who takes everything very literally. I simply do not understand irony, a defect I have had ever since I was able to think independently.',
+  'Nothing I have witnessed, from lava to crustacean, assailed me liked the caked debris haunting that small plastic soap hammock in the smaller of the bathrooms. Nausea is not a sufficient word.',
+  'Tell me about an encounter with a squirrel.',
+  '...we have to declare a holy war against what we see every single day on television.'
 ]

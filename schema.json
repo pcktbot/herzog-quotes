@@ -1,71 +1,71 @@
 {
   "openapi": "3.0.0",
   "info": {
-      "title": "",
-      "version": "1.0.0",
-      "description": "",
-      "contact": {
-          "name": "",
-          "email": "",
-          "url": ""
-      },
-      "license": {
-          "name": "Apache 2.0",
-          "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
-      }
+    "title": "",
+    "version": "1.0.0",
+    "description": "",
+    "contact": {
+      "name": "",
+      "email": "",
+      "url": ""
+    },
+    "license": {
+      "name": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
   },
   "servers": [
-      {
-          "url": ""
-      }
+    {
+      "url": ""
+    }
   ],
   "paths": {
-      "/quotes": {
-          "get": {
-              "description": "",
-              "responses": {
-                  "200": {
-                      "$ref": "#/components/responses/success"
-                  }
-              }
+    "/quotes": {
+      "get": {
+        "description": "",
+        "responses": {
+          "200": {
+            "$ref": "#/components/responses/success"
           }
-      },
-      "/quotes/{count}": {
-          "get": {
-              "description": "Returns {count} quotes in an array",
-              "responses": {
-                  "200": {
-                      "$ref": "#/components/responses/success"
-                  }
-              },
-              "parameters": [
-                  {
-                      "name": "count",
-                      "in": "path",
-                      "required": true,
-                      "schema": {
-                          "type": "integer"
-                      }
-                  }
-              ]
-          }
+        }
       }
+    },
+    "/quotes/{count}": {
+      "get": {
+        "description": "Returns {count} quotes in an array",
+        "responses": {
+          "200": {
+            "$ref": "#/components/responses/success"
+          }
+        },
+        "parameters": [
+          {
+            "name": "count",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ]
+      }
+    }
   },
   "components": {
-      "responses": {
-          "success": {
-              "description": "OK",
-              "content": {
-                  "application/json": {
-                      "schema": {
-                          "type": "array",
-                          "items": {
-                              "type": "string"
-                          }
-                      }
-                  }
+    "responses": {
+      "success": {
+        "description": "OK",
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
               }
+            }
           }
+        }
       }
+    }
   }
 }
