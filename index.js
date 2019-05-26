@@ -13,10 +13,16 @@ const dateFormatter = new Intl.DateTimeFormat('en-GB', {
   second: 'numeric',
 })
 
+app.use(express.static('.'))
+
 app.all('*', (req, res, next) => {
   console.log(`${dateFormatter.format(new Date())} - request for ${req.path}`)
   res.set('Access-Control-Allow-Origin', '*')
   next()
+})
+
+app.get('/', (req, res) => {
+  res.sendFile('/index.html')
 })
 
 app.get('/v2/quotes/:num?', (req, res) => {
