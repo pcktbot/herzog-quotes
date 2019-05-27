@@ -26,7 +26,8 @@ app.get('/', (req, res) => {
 })
 
 app.get('/v2/quotes/:num?', (req, res) => {
-  res.send(randomizer(parseInt(req.params.num, 10) || 1))
+  // res.send(randomizer(parseInt(req.params.num, 10) || 1))
+  res.json(randomizer(parseInt(req.params.num, 10) || 1))
 })
 
 app.get('/v2/schema', (req, res) => {
