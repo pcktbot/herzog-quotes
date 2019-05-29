@@ -6,6 +6,8 @@
 Werner Herzog. (n.d.). AZQuotes.com. Retrieved May 27, 2019, from AZQuotes.com Web site: https://www.azquotes.com/author/6633-Werner_Herzog
 ```
 
+Forgive me for the inclusion of a quote from a character that Herzog voiced.
+
 # An API that returns random Werner Herzog quotes
 
 An express-based api for retrieving a random Werner Herzog quotes. 

@@ -13,4 +13,7 @@ function getQuote(e) {
 }
 
 window.addEventListener('load', getQuote)
+btn.addEventListener('touchend', function(e) {
+  e.preventDefault()
+})
 btn.addEventListener('click', e => getQuote(e))
